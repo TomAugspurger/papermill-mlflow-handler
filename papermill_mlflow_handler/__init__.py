@@ -8,4 +8,5 @@ class MLFlowHandler(LocalHandler):
         mlflow.log_artifact(path)
 
 
-__version__ = "1.0.0"
+mlflow_handler = MLFlowHandler()
+__version__ = "1.0.1"
